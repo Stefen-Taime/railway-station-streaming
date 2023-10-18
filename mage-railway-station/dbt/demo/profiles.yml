@@ -1,0 +1,27 @@
+demo:
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project:
+      dataset: prod_data  
+      threads: 4
+      timeout_seconds: 300
+      location: us-central1
+      priority: interactive
+      retries: 1
+      keyfile: /home/stefen/train/terraform/your_google_credentials.json
+
+    prod:
+      type: bigquery
+      method: service-account
+      project: 
+      dataset: prod_data  
+      threads: 4
+      timeout_seconds: 300
+      location: us-central1
+      priority: interactive
+      retries: 1
+      keyfile: /home/stefen/train/terraform/your_google_credentials.json
+
+  target: dev  

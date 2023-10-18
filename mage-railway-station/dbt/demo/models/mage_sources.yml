@@ -1,0 +1,8 @@
+sources:
+- name: mage_demo
+  tables:
+  - name: wandering_lake_create_external_table
+- name: mage_prod_data
+  tables:
+  - name: wandering_lake_create_external_table
+version: 2

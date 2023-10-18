@@ -1,0 +1,19 @@
+name: 'prod_data'
+version: '1.0.0'
+config-version: 2
+
+profile: 'demo'
+model-paths: ["models"]
+
+models:
+  demo:  # Ceci représente le nom du projet
+    staging:  
+      
+      +materialized: view  
+      +tags: ["staging"]
+      stg_ticket_validations:
+        +materialized: table  
+    intermediate:
+      +materialized: table
+    mart:
+      +materialized: table

@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: staging_data
+    database: 
+    schema: staging_data
+    tables:
+      - name: ticket_validations
+      - name: train_departures
+      - name: train_arrivals
+      - name: incidents
+      - name: equipment_failures
+      
