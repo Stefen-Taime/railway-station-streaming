@@ -462,3 +462,6 @@ To destroy the resources created with Terraform:
 This will tear down the resources that were set up with Terraform.
 
 Disclaimer: Ensure you monitor and manage your cloud costs and usage. I am not responsible for any unexpected charges or overages that may result from using this project.
+
+
+https://medium.com/@stefentaime_10958/full-automation-in-real-time-streaming-03b76a2ab519
